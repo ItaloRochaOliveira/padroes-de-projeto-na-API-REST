@@ -12,13 +12,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import edu.padraodeprojeto.model.Cliente;
-import edu.padraodeprojeto.service.ClienteService;
+import edu.padraodeprojeto.service.impl.ClienteServiceImpl;
 
 @RestController
 @RequestMapping("clientes")
 public class ClienteRestController {
     @Autowired
-    private ClienteService clienteService;
+    private ClienteServiceImpl clienteService;
 
     @GetMapping
 	public ResponseEntity<Iterable<Cliente>> buscarTodos() {
