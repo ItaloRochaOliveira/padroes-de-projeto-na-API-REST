@@ -2,7 +2,7 @@
 
 ## 📖 Introdução
 
-O projeto "Padrões de Projeto na API REST" consiste em uma aplicação do tipo API REST que gerencia integralmente o fluxo de dados, desde o momento em que o cliente faz uma requisição até o armazenamento dos dados em um banco de dados. Ao receber uma requisição, a API conduz os dados por meio de diferentes endpoints, aplicando verificações simples em cada etapa. Essa aplicação permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) de clientes, podendo armazenar informações como nome e endereço.
+O projeto "Padrões de Projeto na API REST" consiste em uma aplicação do tipo API REST que gerencia integralmente o fluxo de dados, desde o momento em que o cliente faz uma requisição até o armazenamento dos dados em um banco de dados. Também se explora alguns padrões feitos em projeto de programação — Criacionais, Comportamentais e Estruturais — através do Spring Framework e Spring Boot e suas funcionalidades disponíveis. Ao receber uma requisição, a API conduz os dados por meio de diferentes endpoints, aplicando verificações simples em cada etapa. Essa aplicação permite realizar operações CRUD (Criar, Ler, Atualizar e Deletar) de clientes, podendo armazenar informações como nome e endereço.
 
 Os conteúdos principais a serem explorados são:
 
